@@ -37,7 +37,19 @@ namespace TesterProgram
 
             Console.WriteLine("Your temporary Username, and Password are as follows.\nUsername: {0}\nPassword: {1}", l1.UserName, l1.Password);
 
+            Console.WriteLine("\n\n");
 
+            ContactInfo c1 = new ContactInfo();
+            c1.StreetAddress = "503 Made Up Lane";
+            c1.City = "Smallville";
+            c1.State = "Missouri";
+            c1.Zip = "64099";
+            c1.Phone = "816-895-5555";
+            c1.Email = "veryrealemail@email.com";
+
+            Console.WriteLine("Let's verify all of your contact info before you leave for the day." +
+                "\nYou live at {0}, {1}, {2}, {3}." +
+                "\nand your phone number, and email are {4}, {5}", c1.StreetAddress, c1.City, c1.State, c1.Zip, c1.Phone, c1.Email);
 
 
 
