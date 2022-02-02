@@ -31,7 +31,11 @@ namespace TesterProgram
 
             Console.WriteLine("\n\n");
 
+            Login l1 = new Login();
+            l1.UserName = "AGKfadsljk";
+            l1.Password = "654fsda";
 
+            Console.WriteLine("Your temporary Username, and Password are as follows.\nUsername: {0}\nPassword: {1}", l1.UserName, l1.Password);
 
 
 
